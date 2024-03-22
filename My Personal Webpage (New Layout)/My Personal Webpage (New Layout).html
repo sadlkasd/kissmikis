@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="google-site-verification" content="sIu_J0lbnAbSVBcBpl3A_8oZ6tYQi1BSaTjdEPvkUm4" />
+<meta name="msvalidate.01" content="E39F8E92699B1AD3F8619B2C3E4F9CFD" />
+<meta charset="UTF-8"/>
+<meta name="description" content="My Personal Webpage on The Web"/>
+<meta name="keywords" content="HTML, CSS, JavaScript"/>
+<meta name="author" content="ODGIEN"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, serif;
+    padding: 10px;
+    background: #fceff3; /* Light pink */
+    margin: 0; /* Added to remove default margin */
+}
+
+/* Header/Blog Title */
+.header {
+    padding: 30px;
+    text-align: center;
+    background: #fff; /* White */
+}
+
+.header h1 {
+    font-size: 50px;
+    color: #ffb6c1; /* Deep pink */
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #ffb6c1; /* Light pink */
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    color: #fff; /* White */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #ff9dbb; /* Lighter pink */
+    color: #000; /* Black */
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+    float: left;
+    width: 75%; /* Adjusted width */
+    padding: 10px; /* Adjusted padding */
+}
+
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 25%; /* Adjusted width */
+    background-color: #fff; /* White */
+    padding: 10px; /* Adjusted padding */
+}
+
+/* Fake image */
+.fakeimg {
+    background-color: #f3d9df; /* Light pink */
+    width: 100%;
+    padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+    background-color: #fff; /* White */
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ffb6c1; /* Light pink */
+    margin-top: 20px;
+    clear: both; /* Added to ensure footer is below everything */
+    color: #fff; /* White */
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+<h1>All About Me</h1>
+<p>Inside My World</p>
+</div>
+
+<div class="topnav">
+<a href="aespa.html">FAVORITE ARTIST</a>
+<a href="lips.html">FAVORITE SONG</a>
+<a href="#">MY PETS</a>
+<a href="#">RECENT TRAVELS</a>
+<a href="#">SCHOOL ACHIEVEMENTS</a>
+<a href="#">BUCKET LIST</a>
+
+
+<a href="#" style="float:right"><em>Be a Patron</em></a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>FAVORITE ARTIST: aespa</h2>
+      <h5>November 11, 2020</h5>
+      <img src="aespa.jpeg" style="max-width: 100%; height: auto;">
+      <p style="text-align: justify;">Delve into the mesmerizing world of Aespa, my ultimate favorite artist. From their groundbreaking music to their captivating visuals, discover why Aespa holds a special place in my heart. </p>
+    </div>
+    <div class="card">
+      <h2>FAVORITE SONG: Lips by WINTER</h2>
+      <h5>August 13, 2023</h5>
+      <img src="winterlips.jpeg" style="max-width: 100%; height: auto;">
+      <p style="text-align: justify;">Step into the emotive world of "Lips" by WINTER, my cherished favorite song. Through poignant lyrics and melodic grace, this song captures the essence of unspoken feelings and heartfelt confessions.</p>
+      <p>Join me as we unravel the layers of longing, vulnerability, and love woven within each verse and chorus. Let's immerse ourselves in the soul-stirring journey of "Lips," where every word is felt, and every emotion resonates deeply.</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About Me</h2>
+      <div style="text-align: center;">
+        <img src="picture.jpg" style="width: 100%; max-width: 400px;">
+      </div>
+      <p style="text-align: justify;">Meet Kishia Odgien, a vibrant 16-year-old whose zest for life shines through her love for the color yellow. With a mysterious love life kept under wraps, Kishia's focus remains on her two beloved cats, her trusted companions through thick and thin. However, she dreams of expanding her furry family with a vibrant green or blue parrot in the near future.</p>
+    </div>
+    <div class="card">
+      <h3>Popular Post</h3>
+      <img src="1.jpeg" style="width: 100%; max-width: 400px;">
+      <img src="2.jpeg" style="width: 100%; max-width: 400px;">
+      <img src="3.jpeg" style="width: 100%; max-width: 400px;">
+    </div>
+    <div class="card">
+      <h3>Follow Me</h3>
+      <p style="text-align: justify;">Stay tuned to discover more about Kishia's adventures and passions as she shares her journey with you. Follow her on <a href="https://www.facebook.com/kish.odgien.1">Facebook</a>.</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <p>Thank you for visiting my website!</p>
+</div>
+
+</body>
+</html>
